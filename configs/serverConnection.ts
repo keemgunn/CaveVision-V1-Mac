@@ -1,7 +1,7 @@
 import { networkInterfaces } from 'os';
 
 console.log("======================================");
-console.log("==== CONTROLLER SERVER INITIATING ====");
+console.log("======= MAC SERVER INITIATING ========");
 console.log("======================================");
 console.log("");
 const nets = networkInterfaces();

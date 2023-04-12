@@ -36,8 +36,6 @@ function mapFacePosition(facePositionArray: Array<string>) {
  */
 function sendFacePosition(facePositionArray: Array<string>) {
   const [x, y] = mapFacePosition(facePositionArray);
-  serialPort.write
-
   console.log(` - Mapped Face Position : [${x}, ${y}]`);
 
   // Send serial data to Arduino
