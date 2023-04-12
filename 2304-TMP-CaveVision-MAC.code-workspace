@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "arduino-setup",
+			"path": "arduino-setup"
+		}
+	],
+	"settings": {
+		"workbench.preferredLightColorTheme": "Bluloco Light Italic",
+		"workbench.colorTheme": "Bluloco Light Italic",
+		"workbench.preferredDarkColorTheme": "Bluloco Dark Italic",
+		"editor.tabSize": 2
+	}
+}
