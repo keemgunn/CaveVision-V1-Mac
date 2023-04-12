@@ -37,8 +37,8 @@ function handleMessagePack(address: string, messagePack: Array<string>, oscClien
 
     case '/pose/position':
       const [x, y] = mapFacePosition(messagePack);
-      oscClient.send(new Message('/face/position', x));
-      console.log(` - SENT OSC MESSAGE to '/face/position' : ${x}`);
+      oscClient.send(new Message('/mappedAngle', x));
+      console.log(` - SENT OSC MESSAGE to '/mappedAngle' : ${x}`);
     break;
 
     default:
